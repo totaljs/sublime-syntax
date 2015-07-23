@@ -37,7 +37,7 @@
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>total.js view engine</string>
+	<string>Total.js - View Engine</string>
 	<key>patterns</key>
 	<array>
 		<dict>
