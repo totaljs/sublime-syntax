@@ -1,0 +1,8 @@
+{
+	"version": "1.0.0",
+	"sublime_text": "*",
+	"dependencies": [],
+	"platforms": ["*"],
+	"url": "https://github.com/totaljs/sublime-syntax",
+	"description": "total.js view engine - syntax highlighter."
+}
