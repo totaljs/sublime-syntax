@@ -5,7 +5,7 @@ This package should work with any color scheme.
 __View engine (*.html):__
 
 ```html
-View -> Syntax -> Open all with current extension as... -> Total.js View Engine
+View -> Syntax -> Total.js View Engine
 ```
 
 __Configuration files (config, resource, versions, dependencies):__
