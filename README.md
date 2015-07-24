@@ -2,5 +2,8 @@ This package should work with any color scheme.
 
 ## Instructions
 
-1. open an html file that has a web component in it
-2. from the menu, select: View -> Syntax -> Open all with current extension as... -> total.js
+__View engine (*.html):__
+`View -> Syntax -> Open all with current extension as... -> Total.js View Engine`
+
+__Configuration files (config, resource, versions, dependencies):__
+`View -> Syntax -> Total.js Configuration File`

@@ -1,6 +1,7 @@
 Thanks for using total.js - web application framework for node.js
 
-To activate Total.js - View Engine, set the syntax using the Goto Anything or the View -> Syntax menu.
-To set Html Extended syntax to always open html (or others) files, follow these steps:
-open an html file that has a web component in it
-from the menu, select: View -> Syntax -> Open all with current extension as... -> Total.js - View Engine
+View engine (*.html):
+View -> Syntax -> Open all with current extension as... -> Total.js View Engine
+
+Configuration files (config, resource, versions, dependencies):
+View -> Syntax -> Total.js Configuration File
