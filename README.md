@@ -13,3 +13,9 @@ __Configuration files (config, resource, versions, dependencies):__
 ```html
 View -> Syntax -> Total.js Configuration File
 ```
+
+__Logs:__
+
+```html
+View -> Syntax -> Total.js Log File
+```

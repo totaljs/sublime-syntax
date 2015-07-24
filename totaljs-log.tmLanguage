@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>log</string>
+	</array>
+	<key>name</key>
+	<string>Total.js Log File</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>(^[0-9:\s]+)(?=[^|])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.html</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.tag.end.html</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(.*?)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted.double.html</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.basic</string>
+	<key>uuid</key>
+	<string>17994EC8-6B1D-11D9-AC3A-000D93589AF6</string>
+</dict>
+</plist>

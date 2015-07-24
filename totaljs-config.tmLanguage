@@ -11,6 +11,7 @@
 		<string>resource</string>
 		<string>versions</string>
 		<string>dependencies</string>
+		<string>package</string>
 	</array>
 	<key>name</key>
 	<string>Total.js Configuration File</string>
@@ -18,7 +19,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(^[\/a-zA-Z0-9:\.\-\_]+)(?=([^:]|[^-->]))</string>
+			<string>(^[\/a-zA-Z0-9\.\-\_]+)(?=([^:]|[^-->]))</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>

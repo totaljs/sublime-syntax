@@ -5,3 +5,6 @@ View -> Syntax -> Open all with current extension as... -> Total.js View Engine
 
 Configuration files (config, resource, versions, dependencies):
 View -> Syntax -> Total.js Configuration File
+
+Logs:
+View -> Syntax -> Total.js Log File
