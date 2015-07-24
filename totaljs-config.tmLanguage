@@ -19,6 +19,28 @@
 	<array>
 		<dict>
 			<key>begin</key>
+			<string>(^\/\/.*?$)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.html</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>($)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.html</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>(^[\/a-zA-Z0-9\.\-\_]+)(?=([^:]|[^-->]))</string>
 			<key>beginCaptures</key>
 			<dict>
@@ -35,28 +57,6 @@
 			</dict>
 			<key>end</key>
 			<string>((\s:|\s-->).*?$)</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>string.quoted.double.html</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>(^\/\/.*?$)</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.comment.html</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>($)</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
