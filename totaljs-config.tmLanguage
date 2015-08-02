@@ -12,6 +12,7 @@
 		<string>versions</string>
 		<string>dependencies</string>
 		<string>package</string>
+		<string>sitemap</string>
 	</array>
 	<key>name</key>
 	<string>Total.js Configuration File</string>
