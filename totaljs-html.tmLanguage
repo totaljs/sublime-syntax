@@ -562,6 +562,10 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#tangular</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#ruby</string>
 				</dict>
 				<dict>
@@ -649,7 +653,7 @@
 			<key>end</key>
 			<string>\)</string>
 			<key>name</key>
-			<string>comment.block.html</string>
+			<string>comment.block</string>
 		</dict>
 
 		<key>total1</key>
@@ -661,13 +665,13 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.html</string>
+					<string>entity.name.function</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>}</string>
 			<key>name</key>
-			<string>comment.block.html</string>
+			<string>entity.name.function</string>
 		</dict>
 
 		<key>total2</key>
@@ -679,13 +683,23 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.html</string>
+					<string>entity.name.function</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>}</string>
 			<key>name</key>
-			<string>comment.block.html</string>
+			<string>entity.name.function</string>
+		</dict>
+
+		<key>tangular</key>
+		<dict>
+			<key>begin</key>
+			<string>\{\{</string>
+			<key>end</key>
+			<string>\}\}</string>
+			<key>name</key>
+			<string>keyword.control</string>
 		</dict>
 
 		<key>ruby</key>

@@ -7,7 +7,7 @@
 		<string>log</string>
 	</array>
 	<key>name</key>
-	<string>Total.js Log File</string>
+	<string>Total.js - Log File</string>
 	<key>patterns</key>
 	<array>
 		<dict>
