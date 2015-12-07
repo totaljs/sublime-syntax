@@ -1,4 +1,4 @@
-# Total.js Syntax Highlighting for Sublime Text 3 Editor
+# Total.js Syntax for Sublime Text 3 Editor
 
 This package should work with any color scheme. Copy all `*.tmpLanguage` files into the `~/Library/Application Support/Sublime Text 3/Packages/User` directory and change syntax via `Syntax --> User --> Total.js ....`.
 
